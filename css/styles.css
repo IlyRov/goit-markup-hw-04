@@ -34,6 +34,7 @@ Single-colored icons can be modified like so:
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+    height: 72px;
 }
 .head-container {
     display: flex;
@@ -47,6 +48,8 @@ Single-colored icons can be modified like so:
 .navigation {
     display: flex;
     align-items: center;
+    height: 24px;
+    margin-top: 24px;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -96,6 +99,8 @@ Single-colored icons can be modified like so:
     font-style: normal;
     margin: 0 auto;
     padding-left: 332px;
+    height: 24px;
+    margin-top: 24px;
 }
 .message {
     line-height: 1.5;
@@ -105,6 +110,11 @@ Single-colored icons can be modified like so:
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hero-header {
     font-size: 56px;
@@ -131,6 +141,7 @@ Single-colored icons can be modified like so:
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
+    margin-top: 48px;
 }
 .hero-button:hover {
     background-color: #404BBF;

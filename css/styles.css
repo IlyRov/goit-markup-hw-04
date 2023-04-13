@@ -149,7 +149,7 @@ Single-colored icons can be modified like so:
 .hero-button:focus {
     background-color: #404BBF;
 }
-.container-two {
+.-two {
     padding: 120px 0;
 }
 .principle-list {

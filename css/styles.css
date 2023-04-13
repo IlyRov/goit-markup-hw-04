@@ -149,7 +149,7 @@ Single-colored icons can be modified like so:
 .hero-button:focus {
     background-color: #404BBF;
 }
-.-two {
+.section-two {
     padding: 120px 0;
 }
 .principle-list {
@@ -157,6 +157,15 @@ Single-colored icons can be modified like so:
     padding: 0;
     display: flex;
     gap: 24px;
+}
+.principle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .principle_point {
     flex-basis: calc((100% - 3 * 24px) / 4);

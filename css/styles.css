@@ -76,7 +76,7 @@ img {
 .contacts {
     font-style: normal;
     margin: 0 auto;
-    padding: 0;
+    padding-left: 332px;
 }
 .message {
     line-height: 1.5;

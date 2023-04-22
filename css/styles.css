@@ -304,7 +304,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    margin: 16px;
     color: #FFFFFF;
     display: flex;
 }

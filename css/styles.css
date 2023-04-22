@@ -252,9 +252,6 @@ img {
     gap: 24px;
 }
 .socials{
-    display: flex;
-    max-width: 100%;
-    max-height: 100%;
     width: 40px;
     height: 40px;
 }

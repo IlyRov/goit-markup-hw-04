@@ -301,8 +301,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
     margin-bottom: 16px;
+    color: #FFFFFF;
 }
 .footer-social-media-list{
     display: flex;

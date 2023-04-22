@@ -296,6 +296,22 @@ img {
         max-width: 264px;
         color: #F4F4FD;
 }
+.footer-social-media-paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-social-media-list{
+    display: flex;
+    gap: 16px;
+}
+.footer-social-media-list-point{
+    width: 40px;
+    height: 40px;
+}
 .portfolio-section {
     padding: 96px 0 120px;
 }

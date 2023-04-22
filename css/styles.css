@@ -294,8 +294,10 @@ img {
 }
 .section-five{
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .customer-header{
+    margin: 0 auto;
     font-size: 36px;
     line-height: 1.1;
     color: #2e2f42;

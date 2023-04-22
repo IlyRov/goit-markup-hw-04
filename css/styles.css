@@ -13,6 +13,10 @@ body {
 li{
     list-style-type: none;
 }
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
 img {
     display: block;
 }
@@ -284,6 +288,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.team-social-svg{
+   fill: #f4f4fd; 
 }
 .bottom {
     background-color: #2e2f42;

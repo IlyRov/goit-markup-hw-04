@@ -202,6 +202,7 @@ img {
 .principle_point {
     flex-basis: calc((100% - 3 * 24px) / 4);
     margin: 0 auto;
+    margin-bottom: 8px;
 }
 .third-header {
     font-weight: 500;

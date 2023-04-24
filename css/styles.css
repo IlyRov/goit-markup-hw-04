@@ -17,6 +17,9 @@ ul{
     margin-left: 0;
     padding-left: 0;
 }
+a {
+    margin: 0 auto;
+}
 img {
     display: block;
 }
@@ -364,7 +367,6 @@ img {
     margin: 0 auto;
     margin-bottom: 16px;
     color: #FFFFFF;
-    display: flex;
 }
 .footer-social-media-list{
     display: flex;

@@ -269,6 +269,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin: 0 auto;
+    margin-bottom: 8px;
 }
 .principle-paragraph {
     line-height: 1.5;

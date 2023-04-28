@@ -15,16 +15,79 @@ section {
 }
 li{
     list-style-type: none;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+address {
+    margin: 0 auto;
+}
+
+input {
+    margin: 0 auto;
+}
+
+label {
+    margin: 0 auto;
+}
+
+option {
+    margin: 0 auto;
+}
+
+select {
+    margin: 0 auto;
+}
+
+button {
+    margin: 0 auto;
+}
+
+svg {
+    margin: 0 auto;
+}
+
+object {
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+}
+
+article {
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+}
+header {
+    margin-top: 0 auto;
+}
+div {
+    margin: 0 auto;
 }
 ul{
-    margin-left: 0;
-    padding-left: 0;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
 }
 a {
     margin: 0 auto;
 }
 img {
     display: block;
+    margin: 0 auto;
 }
 .icon {
     display: inline-block;
@@ -62,7 +125,6 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-    height: 72px;
 }
 .head-container {
     display: flex;
@@ -76,8 +138,7 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    height: 24px;
-    margin-top: 24px;
+    margin: 0 auto;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -116,6 +177,7 @@ img {
     gap: 40px;
 }
 .menu {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -126,9 +188,6 @@ img {
 .contacts {
     font-style: normal;
     margin: 0 auto;
-    padding-left: 332px;
-    height: 24px;
-    margin-top: 24px;
 }
 .message {
     line-height: 1.5;
@@ -181,6 +240,7 @@ img {
     background-color: #404BBF;
 }
 .section-two {
+    margin: 0 auto;
     padding: 120px 0;
 }
 .principle-list {
@@ -209,7 +269,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin: 0 auto;
-    margin-bottom: 8px;
 }
 .principle-paragraph {
     line-height: 1.5;
@@ -502,7 +561,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin: 0 auto;
-    margin-bottom: 8px;
 }
 .concept-p {
     font-size: 16px;

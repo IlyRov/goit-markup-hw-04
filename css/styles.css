@@ -1,83 +1,68 @@
 @import 'node_modules/modern-normalize/modern-normalize.min.css';
 
+element.style {}
+
+.header {
+    background-color: var(--color-white);
+    border-bottom: 1px solid #e7e9fc;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet header {
+    display: block;
+}
+
 :root {
-    --brand-color: #3f51b5;
+    --iteam: 3;
+    --column: 24px;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
 }
 body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    font-family: var(--primary-font);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     margin: 0 auto;
     padding: 0;
 }
-section {
-    margin: 0 auto;
+header {
+    display: block;
 }
 li{
     list-style-type: none;
-    margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
-address {
-    margin: 0 auto;
-}
-
-input {
-    margin: 0 auto;
-}
-
-label {
-    margin: 0 auto;
-}
-
-option {
-    margin: 0 auto;
-}
-
-select {
-    margin: 0 auto;
-}
-
-button {
-    margin: 0 auto;
-}
-
-svg {
-    margin: 0 auto;
-}
-
-object {
-    margin: 0 auto;
-}
-
-main {
-    margin: 0 auto;
-}
-
-article {
-    margin: 0 auto;
-}
-
-nav {
-    margin: 0 auto;
-}
-
-footer {
-    margin: 0 auto;
-}
-
-section {
-    margin: 0 auto;
-}
-header {
-    margin-top: 0 auto;
-}
-div {
-    margin: 0 auto;
-}
 ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -127,18 +112,22 @@ img {
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .head-container {
+    margin: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .container {
     width: 1158px;
     padding: 0 15px 0 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navigation {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin: 0;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -169,7 +158,11 @@ img {
     padding: 0;
 }
 .head-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     display: flex;
+    justify-content: space-between;
     gap: 40px;
 }
 .contact-list {
@@ -187,7 +180,7 @@ img {
 }
 .contacts {
     font-style: normal;
-    margin: 0 auto;
+    margin: 0;
 }
 .message {
     line-height: 1.5;
@@ -277,6 +270,7 @@ img {
     margin: 0 auto;
 }
 .section-three {
+    display: flex;
     padding-bottom: 120px;
     margin: 0 auto;
 }
@@ -375,6 +369,7 @@ img {
    fill: #f4f4fd; 
 }
 .section-five{
+    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -433,7 +428,7 @@ img {
 .bottom-p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    margin: 0 auto;
+    margin: 0;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;

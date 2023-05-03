@@ -33,6 +33,11 @@ user agent stylesheet header {
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
 }
+ svg path {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+ }
 body {
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
     font-family: var(--primary-font);
@@ -52,8 +57,8 @@ header {
 li{
     list-style-type: none;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 0 auto;
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 ul{
     display: block;
@@ -195,8 +200,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
 }
 .hero-header {
@@ -360,6 +363,7 @@ img {
     margin-bottom: 8px;
 }
 .job-title {
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -369,16 +373,17 @@ img {
    fill: #f4f4fd; 
 }
 .section-five{
-    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .customer-header{
     margin: 0 auto;
+    width: 100%;
     font-size: 36px;
     line-height: 1.1;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 }
 .customer-list{
     display: flex;
@@ -409,6 +414,12 @@ img {
 }
 .customer-link-svg{
     fill: currentColor;
+}
+.customer-link-svg:hover{
+    fill: #404bbf;
+}
+.customer-link-svg:focus{
+    fill: #404bbf;
 }
 .bottom {
     background-color: #2e2f42;
